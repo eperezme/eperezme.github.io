@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Test"
+date: 2024-05-10T18:58:18+02:00
+lastmod: 2024-05-10T18:58:18+02:00
 author: ["Edu"]
 categories: 
 - categorie 1
@@ -24,9 +24,19 @@ cover:
     caption: ""
     alt: ""
     relative: false
-editPost:
-    URL: "https://github.com/eperezme/eperezme.github.io/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
----
+
+
+# Hello
+This is a test
+
+```r
+wd <- getwd()
+
+```
+
+## Test
+
+### Test3
+
+# Hello 2
