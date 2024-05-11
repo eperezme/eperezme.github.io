@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.125.7</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 May 2024 13:42:23 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 13:52:58 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrated to Hugo and enabling KaTeX</title>
+      <link>http://localhost:1313/posts/migrated-to-hugo/</link>
+      <pubDate>Sat, 11 May 2024 13:52:58 +0200</pubDate>
+      <guid>http://localhost:1313/posts/migrated-to-hugo/</guid>
+      <description>So I have migrated my older blog to a Hugo template named PaperMod.
+And had to enable the latex support as noted by this user
+Content Setup First of all, create a file layouts/partials/extend_head.html with the following content.
+{{ if or .Params.math .Site.Params.math }} &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css&amp;#34; integrity=&amp;#34;sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ&amp;#34; crossorigin=&amp;#34;anonymous&amp;#34;&amp;gt; &amp;lt;!-- The loading of KaTeX is deferred to speed up page rendering --&amp;gt; &amp;lt;script defer src=&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js&amp;#34; integrity=&amp;#34;sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY&amp;#34; crossorigin=&amp;#34;anonymous&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;!-- To automatically render math in text elements, include the auto-render extension: --&amp;gt; &amp;lt;script defer src=&amp;#34;https://cdn.</description>
+    </item>
     <item>
       <title>Added Emoticons</title>
       <link>http://localhost:1313/posts/added-emoticons/</link>
