@@ -1,7 +1,7 @@
 ---
-title: "Test"
-date: 2024-05-10T18:58:18+02:00
-lastmod: 2024-05-10T18:58:18+02:00
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+lastmod: {{ .Date }}
 author: ["Edu"]
 categories: 
 - categorie 1
@@ -19,24 +19,19 @@ TocOpen: true # open contents automantically
 hidemeta: false # hide information (author, create date, etc.)
 disableShare: true	# do not show share button
 showbreadcrumbs: true # show current path
+searchHidden: true
+ShowReadingTime: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
 cover:
     image: ""
     caption: ""
     alt: ""
     relative: false
+editPost:
+    URL: "https://github.com/eperezme/eperezme.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
-
-
-# Hello
-This is a test
-
-```r
-wd <- getwd()
-
-```
-
-## Test
-
-### Test3
-
-# Hello 2

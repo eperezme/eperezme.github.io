@@ -11,15 +11,27 @@
     </image>
     <generator>Hugo -- 0.125.7</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 May 2024 18:58:18 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 13:42:23 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Fri, 10 May 2024 18:58:18 +0200</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>Hello This is a test
-wd &amp;lt;- getwd() Test Test3 Hello 2 </description>
+      <title>Added Emoticons</title>
+      <link>http://localhost:1313/posts/added-emoticons/</link>
+      <pubDate>Mon, 18 Dec 2023 13:42:23 +0200</pubDate>
+      <guid>http://localhost:1313/posts/added-emoticons/</guid>
+      <description>The problem While creating this blog I realized that the emoticons were not possible to add because the Strapi database does not accept unicode characters and emojis.
+So it was clear that if I wanted to add emoticons to the blog I must render them on the client side.
+The solution I came up to the awesome package: ReactMarkdown
+This allowed me to use multiple plugins to render the markdown contents super easy with only one line of code (one tag) and avoiding the dangerouslySetInnerHTML property.</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 15 Dec 2023 18:58:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>Soo it&amp;rsquo;s like 1:21AM and I&amp;rsquo;ve been working on setting up this thing all day but IT WORKS
+Hope it stays unbroken for the rest of the time I plan to use it, but let&amp;rsquo;s be honest probably later when I wake up it will be on fire.
+Buuuuuut that&amp;rsquo;s all for today (or tonight?) so good night and please don&amp;rsquo;t break &amp;lt;3
+PD: have to figure out how to add emojis on here 🐛</description>
     </item>
   </channel>
 </rss>

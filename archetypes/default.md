@@ -19,6 +19,12 @@ TocOpen: true # open contents automantically
 hidemeta: false # hide information (author, create date, etc.)
 disableShare: true	# do not show share button
 showbreadcrumbs: true # show current path
+searchHidden: true
+ShowReadingTime: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
 cover:
     image: ""
     caption: ""
@@ -29,4 +35,4 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
----
+
